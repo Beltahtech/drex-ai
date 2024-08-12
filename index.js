@@ -1,7 +1,7 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || '𝐃𝐑𝐄𝐗_𝐀𝐈';
+let botname = process.env.BOTNAME || '𝐒𝐂𝐄𝐍𝐄-𝐀𝐈';
 
 const owner = process.env.DEV || '254102074064'; // This will send a notification once the bot reconnects
 const {
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `Hail to ${botname}\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `𝐒𝐂𝐄𝐍𝐄-𝐀𝐈-𝐁𝐎𝐓-𝐁𝐘-𝐁𝐄𝐋𝐓𝐀𝐇\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
 
                                  ) 
 
@@ -300,7 +300,7 @@ function _0x4f5a() {
         '9rOCBsS',
         '5528200D',
         'group\x20rule',
-        '𝐃𝐑𝐄𝐗_𝐀𝐈\x20Bot',
+        '𝐒𝐂𝐄𝐍𝐄-𝐀𝐈\x20𝐁𝐎𝐓',
         'lry',
         'cBOYH',
         'ILuES',
@@ -734,7 +734,7 @@ function _0x4dc1() {
       console.log(color("Congrats, drex ai has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as @drex_mose", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `[𝐃𝐑𝐄𝐗 𝐁𝐎𝐓] 𝐡𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝. . .\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\nHave fun with the bot😁\n\ncontact +254102074064 incase of any issues` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `[𝐒𝐂𝐄𝐍𝐄-𝐀𝐈-𝐁𝐎𝐓] 𝐡𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝. . .\n\n𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n\nHave fun with the bot😁\n\ncontact +254114141192 incase of any issues\n\n\n> 𝐒𝐂𝐄𝐍𝐄-𝐀𝐈-𝐁𝐎𝐓 ©2024` });
     }
     // console.log('Connected...', update)
   });
